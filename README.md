@@ -22,13 +22,19 @@ It will make use of Python and OpenCV modules specifically targeting Image Proce
 
 ### How to create your own ‘Invisibility Cloak’??
 
-1) To achieve this, initially we’ll be capturing and storing the backdrop frame.
 
-2) Thereafter we’ll be identifying the red (You can use any coloured cloak but for that just change the range of ‘H.S.V’ value according to the particular [colour table](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwilhdnmibjwAhXkwTgGHb7CD0cQFjABegQIBBAD&url=https%3A%2F%2Fwww.rapidtables.com%2Fconvert%2Fcolor%2Frgb-to-hsv.html&usg=AOvVaw1jGli7ypPaRMx6x65JVbVe)) coloured fabric by making use of the above mentioned algorithms. 
+ 1) To achieve this, initially, we’ll be capturing and storing the backdrop frame.
 
-3) Then we’ll segment out the red colored fabric by generating a mask and then finally.
+ 2) Thereafter we’ll be identifying the red (You can use any coloured cloak but for that just change the range of ‘H.S.V’ value according to the particular [colour table](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwilhdnmibjwAhXkwTgGHb7CD0cQFjABegQIBBAD&url=https%3A%2F%2Fwww.rapidtables.com%2Fconvert%2Fcolor%2Frgb-to-hsv.html&usg=AOvVaw1jGli7ypPaRMx6x65JVbVe)) colored fabric by making use of the above-mentioned algorithms.
 
-4)  We will generate the final augmented(magical) output to create Invisibility cloak.
+3) Then we’ll segment out the red-colored fabric by generating a mask and then finally.
+
+4) We will generate the final augmented(magical) output to create an Invisibility cloak.
+
+This technique is opposite to the Green Screening.
+But unlike green screening where we remove the background, in this application, we remove the foreground!
+
+
 
 <img scr="https://github.com/akshitagupta15june/HOCUS-POCUS/blob/main/Images/anam2.jpeg">
 
