@@ -36,5 +36,4 @@ But unlike green screening where we remove the background, in this application, 
 
 
 
-<img scr="https://github.com/akshitagupta15june/HOCUS-POCUS/blob/main/Images/anam2.jpeg">
 
